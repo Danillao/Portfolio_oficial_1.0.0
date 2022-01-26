@@ -8,7 +8,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 140;
+    --hue-color: 250;
     /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
@@ -607,7 +607,7 @@ header {
 }
 
 .skills__css {
-    width: 80%;
+    width: 70%;
 }
 
 .skills__js {
@@ -931,6 +931,23 @@ header {
     justify-self: center;
 }
 
+
+/*==================== FLOATING ANIMATION====================*/
+img.project__img {
+    animation: floating 5s ease-in-out infinite;
+}
+
+@keyframes floating {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-40px);
+    }
+}
 
 
 /*==================== TESTIMONIAL ====================*/
